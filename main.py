@@ -18,11 +18,8 @@ def get_book_text(path):
 
 
 def count_words(book_text):
-    count = 0 
     words = book_text.split()
-    for w in words:
-        count += 1
-    return count
+    return len(words)
 
 
 def count_letters(text_of_book):
